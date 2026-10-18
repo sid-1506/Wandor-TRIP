@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <!-- Sky -->
+  <rect width="400" height="260" fill="#F8F4EA" rx="12" />
+  <!-- Portrait Roma (Modern luxury townhouse facade) -->
+  <rect x="70" y="40" width="260" height="200" fill="#E8DFCD" stroke="#2B2118" stroke-width="1.8" />
+  <!-- Terracotta accent frames -->
+  <rect x="90" y="60" width="45" height="50" rx="2" fill="#B9643A" />
+  <rect x="94" y="64" width="37" height="42" fill="#2B2118" />
+  <rect x="175" y="60" width="50" height="50" rx="2" fill="#B9643A" />
+  <rect x="179" y="64" width="42" height="42" fill="#2B2118" />
+  <rect x="260" y="60" width="45" height="50" rx="2" fill="#B9643A" />
+  <rect x="264" y="64" width="37" height="42" fill="#2B2118" />
+  <!-- Floor 2 windows -->
+  <rect x="90" y="130" width="45" height="50" rx="2" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.2" />
+  <rect x="96" y="136" width="33" height="38" fill="#2B2118" />
+  <rect x="175" y="130" width="50" height="50" rx="2" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.2" />
+  <rect x="181" y="136" width="38" height="38" fill="#2B2118" />
+  <rect x="260" y="130" width="45" height="50" rx="2" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.2" />
+  <rect x="266" y="136" width="33" height="38" fill="#2B2118" />
+  <!-- Entrance & Brass Canopy -->
+  <rect x="170" y="195" width="60" height="45" fill="#2B2118" />
+  <line x1="160" y1="195" x2="240" y2="195" stroke="#D9A877" stroke-width="4" stroke-linecap="round" />
+  <!-- Ivy Vines on Corner -->
+  <path d="M 72 230 C 65 180, 80 140, 72 90" stroke="#5E6045" stroke-width="2.5" stroke-linecap="round" />
+  <ellipse cx="68" cy="180" rx="8" ry="5" fill="#8B8D69" />
+  <ellipse cx="78" cy="140" rx="8" ry="5" fill="#8B8D69" />
+  <ellipse cx="70" cy="100" rx="7" ry="4" fill="#8B8D69" />
+</svg>

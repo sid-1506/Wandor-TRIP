@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none" id="plants-foreground-left" data-depth="1.30">
+  <g id="fg-plants-left">
+    <!-- Leaf 1 (Tall Left-most Broad Leaf) -->
+    <path d="M 0 1020 
+             C 15 970, 30 910, 25 840 
+             C 45 845, 65 870, 70 920 
+             C 75 970, 60 1030, 45 1080 Z" 
+          fill="#3B3733" stroke="#2B2118" stroke-width="2" />
+    <path d="M 25 840 C 35 910, 42 980, 45 1080" stroke="#F3EBDB" stroke-width="1.8" stroke-linecap="round" opacity="0.65" />
+    
+    <!-- Leaf 2 (Arching Rightward) -->
+    <path d="M 15 1080 
+             C 35 1010, 70 930, 115 885 
+             C 135 905, 135 940, 120 990 
+             C 105 1030, 75 1060, 50 1080 Z" 
+          fill="#52543C" stroke="#2B2118" stroke-width="2" />
+    <path d="M 115 885 C 95 945, 65 1015, 50 1080" stroke="#F3EBDB" stroke-width="1.8" stroke-linecap="round" opacity="0.65" />
+
+    <!-- Leaf 3 (Large Upright Center Leaf) -->
+    <path d="M 40 1080 
+             C 55 990, 85 910, 105 850 
+             C 125 855, 145 880, 150 930 
+             C 155 980, 130 1040, 95 1080 Z" 
+          fill="#353725" stroke="#2B2118" stroke-width="2" />
+    <path d="M 105 850 C 120 920, 115 1000, 95 1080" stroke="#F3EBDB" stroke-width="1.8" stroke-linecap="round" opacity="0.65" />
+
+    <!-- Leaf 4 (Lower Spreading Leaf) -->
+    <path d="M 80 1080 
+             C 110 1030, 160 970, 205 950 
+             C 215 970, 205 1000, 180 1035 
+             C 155 1060, 125 1075, 105 1080 Z" 
+          fill="#5E6045" stroke="#2B2118" stroke-width="2" />
+    <path d="M 205 950 C 175 990, 140 1040, 105 1080" stroke="#F3EBDB" stroke-width="1.8" stroke-linecap="round" opacity="0.65" />
+
+    <!-- Leaf 5 (Small Accent Frond) -->
+    <path d="M 0 920 
+             C 20 900, 45 890, 60 895 
+             C 55 915, 40 935, 15 955 Z" 
+          fill="#444630" stroke="#2B2118" stroke-width="1.8" />
+  </g>
+</svg>

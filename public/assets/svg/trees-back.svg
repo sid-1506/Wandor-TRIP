@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none" id="trees-back" data-depth="0.70">
+  <!-- Round Olive Tree on Left -->
+  <g id="tree-left-round">
+    <!-- Dark Trunk and Branches -->
+    <path d="M 405 850 
+             C 405 810, 400 780, 405 750 
+             C 408 730, 412 710, 414 690 
+             L 418 690 
+             C 416 715, 418 740, 416 775 
+             C 416 805, 420 835, 424 855 Z" 
+          fill="#2B2118" />
+    <!-- Branch Left -->
+    <path d="M 408 745 C 392 730, 375 725, 360 728 L 358 724 C 378 718, 396 725, 412 738 Z" fill="#2B2118" />
+    <!-- Branch Right -->
+    <path d="M 414 735 C 430 722, 448 720, 462 725 L 460 729 C 446 724, 430 726, 414 740 Z" fill="#2B2118" />
+
+    <!-- Main Round Olive Crown -->
+    <!-- Shadow base -->
+    <ellipse cx="410" cy="695" rx="72" ry="74" fill="#585B3D" />
+    <!-- Main Body -->
+    <ellipse cx="408" cy="690" rx="70" ry="72" fill="#7D815C" />
+    <!-- Highlight Lobe -->
+    <ellipse cx="396" cy="678" rx="54" ry="56" fill="#8B8D69" />
+    <ellipse cx="388" cy="668" rx="36" ry="38" fill="#A1A47E" />
+
+    <!-- Hand-Drawn Ringlets & Stipples -->
+    <g stroke="#2B2118" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.45">
+      <!-- Outer contoured edge strokes -->
+      <path d="M 350 670 C 352 650, 375 635, 405 632 C 435 630, 465 645, 474 670" stroke-dasharray="6 4" />
+      <path d="M 474 670 C 485 695, 475 730, 455 750 C 435 765, 395 768, 370 755 C 348 740, 342 700, 350 670" stroke-dasharray="5 5" />
+      <!-- Interior leaf swirls -->
+      <path d="M 380 675 C 390 665, 410 668, 418 680" />
+      <path d="M 410 705 C 425 695, 445 700, 450 715" />
+      <path d="M 375 715 C 385 705, 400 710, 406 725" />
+    </g>
+    <!-- Cream Stipples -->
+    <g fill="#F3EBDB" opacity="0.65">
+      <circle cx="385" cy="660" r="2.2" />
+      <circle cx="398" cy="652" r="1.8" />
+      <circle cx="372" cy="674" r="1.8" />
+      <circle cx="412" cy="662" r="2.0" />
+    </g>
+  </g>
+
+  <!-- Slender Upright Cypress Trees on Mountain and Hills -->
+  <!-- Tree 1 (Slender Olive Cypress) -->
+  <g id="cypress-1" transform="translate(930, 780)">
+    <line x1="12" y1="90" x2="12" y2="120" stroke="#2B2118" stroke-width="3" stroke-linecap="round" />
+    <path d="M 12 10 C 2 30, 0 60, 2 95 C 12 98, 12 98, 22 95 C 24 60, 22 30, 12 10 Z" fill="#5E6045" />
+    <path d="M 12 10 C 4 30, 2 60, 5 95 C 12 97, 12 97, 18 95 C 20 60, 18 30, 12 10 Z" fill="#757954" />
+    <g stroke="#2B2118" stroke-width="1.2" stroke-linecap="round" opacity="0.4">
+      <line x1="8" y1="40" x2="16" y2="44" />
+      <line x1="6" y1="60" x2="18" y2="65" />
+      <line x1="7" y1="80" x2="17" y2="84" />
+    </g>
+  </g>
+
+  <!-- Tree 2 (Mid-slope Cypress) -->
+  <g id="cypress-2" transform="translate(1210, 770) scale(0.9)">
+    <line x1="12" y1="90" x2="12" y2="120" stroke="#2B2118" stroke-width="3" stroke-linecap="round" />
+    <path d="M 12 10 C 2 30, 0 60, 2 95 C 12 98, 12 98, 22 95 C 24 60, 22 30, 12 10 Z" fill="#4B4E36" />
+    <path d="M 12 10 C 4 30, 3 60, 5 95 C 12 97, 12 97, 18 95 C 20 60, 18 30, 12 10 Z" fill="#666A49" />
+    <g stroke="#2B2118" stroke-width="1.2" stroke-linecap="round" opacity="0.4">
+      <line x1="7" y1="45" x2="17" y2="50" />
+      <line x1="5" y1="70" x2="19" y2="75" />
+    </g>
+  </g>
+
+  <!-- Tree 3 (Right Slope Cypress) -->
+  <g id="cypress-3" transform="translate(1280, 800) scale(1.1)">
+    <line x1="12" y1="90" x2="12" y2="120" stroke="#2B2118" stroke-width="3.2" stroke-linecap="round" />
+    <path d="M 12 10 C 2 30, 0 60, 2 95 C 12 98, 12 98, 22 95 C 24 60, 22 30, 12 10 Z" fill="#585B3E" />
+    <path d="M 12 10 C 4 30, 3 60, 5 95 C 12 97, 12 97, 18 95 C 20 60, 18 30, 12 10 Z" fill="#757954" />
+    <g stroke="#2B2118" stroke-width="1.2" stroke-linecap="round" opacity="0.4">
+      <line x1="8" y1="35" x2="16" y2="40" />
+      <line x1="6" y1="58" x2="18" y2="64" />
+      <line x1="5" y1="82" x2="19" y2="88" />
+    </g>
+  </g>
+</svg>

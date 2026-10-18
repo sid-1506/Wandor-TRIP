@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" fill="none">
+  <!-- Sticker White Outline & Shadow Filter -->
+  <g filter="drop-shadow(0px 8px 16px rgba(43,33,24,0.18))">
+    <!-- White Sticker Backing -->
+    <path d="M 30 250 L 35 120 L 50 60 L 65 30 L 78 30 L 85 65 L 95 20 L 105 20 L 115 65 L 122 30 L 135 30 L 150 60 L 165 120 L 170 250 Z" 
+          stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" fill="#FFFFFF" />
+
+    <!-- Sagrada Família Spires & Facade -->
+    <!-- Base Facade -->
+    <rect x="42" y="140" width="116" height="105" fill="#D9A877" stroke="#2B2118" stroke-width="2" />
+    
+    <!-- 4 Nativity Spires (Gaudi organic perforated towers) -->
+    <!-- Spire 1 (Far Left) -->
+    <polygon points="50,140 56,50 68,50 74,140" fill="#B9643A" stroke="#2B2118" stroke-width="1.6" />
+    <circle cx="62" cy="45" r="7" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.4" />
+    <line x1="62" y1="38" x2="62" y2="28" stroke="#2B2118" stroke-width="1.8" />
+    <!-- Spire 2 (Center Left) -->
+    <polygon points="76,140 82,35 94,35 100,140" fill="#8E4526" stroke="#2B2118" stroke-width="1.6" />
+    <circle cx="88" cy="30" r="8" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.4" />
+    <line x1="88" y1="22" x2="88" y2="12" stroke="#2B2118" stroke-width="1.8" />
+    <!-- Spire 3 (Center Right) -->
+    <polygon points="102,140 108,35 120,35 126,140" fill="#8E4526" stroke="#2B2118" stroke-width="1.6" />
+    <circle cx="114" cy="30" r="8" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.4" />
+    <line x1="114" y1="22" x2="114" y2="12" stroke="#2B2118" stroke-width="1.8" />
+    <!-- Spire 4 (Far Right) -->
+    <polygon points="128,140 134,50 146,50 152,140" fill="#B9643A" stroke="#2B2118" stroke-width="1.6" />
+    <circle cx="140" cy="45" r="7" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.4" />
+    <line x1="140" y1="38" x2="140" y2="28" stroke="#2B2118" stroke-width="1.8" />
+
+    <!-- Openings / Niches on Spires -->
+    <g fill="#2B2118">
+      <ellipse cx="62" cy="70" rx="3" ry="5" />
+      <ellipse cx="62" cy="95" rx="3" ry="5" />
+      <ellipse cx="88" cy="60" rx="3.5" ry="6" />
+      <ellipse cx="88" cy="85" rx="3.5" ry="6" />
+      <ellipse cx="88" cy="110" rx="3.5" ry="6" />
+      <ellipse cx="114" cy="60" rx="3.5" ry="6" />
+      <ellipse cx="114" cy="85" rx="3.5" ry="6" />
+      <ellipse cx="114" cy="110" rx="3.5" ry="6" />
+      <ellipse cx="140" cy="70" rx="3" ry="5" />
+      <ellipse cx="140" cy="95" rx="3" ry="5" />
+    </g>
+
+    <!-- Triple Portals at Base (Faith, Hope, Charity) -->
+    <path d="M 52 245 L 52 195 A 14 14 0 0 1 80 195 L 80 245 Z" fill="#2B2118" />
+    <path d="M 86 245 L 86 180 A 16 16 0 0 1 118 180 L 118 245 Z" fill="#2B2118" />
+    <path d="M 124 245 L 124 195 A 14 14 0 0 1 152 195 L 152 245 Z" fill="#2B2118" />
+  </g>
+</svg>

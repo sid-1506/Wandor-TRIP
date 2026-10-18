@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" fill="none">
+  <!-- Pyramids of Giza Sticker -->
+  <g filter="drop-shadow(0px 8px 16px rgba(43,33,24,0.18))">
+    <!-- White Sticker Backing -->
+    <path d="M 15 150 L 70 50 L 125 50 L 160 70 L 205 150 Z" 
+          stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" fill="#FFFFFF" />
+
+    <!-- Khufu (Great Pyramid on Left) -->
+    <!-- Light Sunlit Face -->
+    <polygon points="20,145 95,50 115,145" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.8" />
+    <!-- Shaded Right Face -->
+    <polygon points="95,50 115,145 155,145" fill="#B9643A" stroke="#2B2118" stroke-width="1.8" />
+
+    <!-- Khafre (Second Pyramid on Right) -->
+    <!-- Light Face -->
+    <polygon points="105,145 155,68 175,145" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.8" />
+    <!-- Casing Stones at Apex of Khafre -->
+    <polygon points="150,85 155,68 162,85" fill="#D9A877" />
+    <!-- Shaded Face -->
+    <polygon points="155,68 175,145 205,145" fill="#8E4526" stroke="#2B2118" stroke-width="1.8" />
+
+    <!-- Sand Dunes Ground Base -->
+    <path d="M 15 145 C 65 140, 140 148, 205 145" stroke="#2B2118" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none" id="mountain-machu-picchu" data-depth="0.60">
+  <defs>
+    <pattern id="mountain-hatch" width="8" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#2B2118" stroke-width="1.1" opacity="0.35" />
+    </pattern>
+    <pattern id="mountain-hatch-light" width="10" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(-15)">
+      <line x1="0" y1="0" x2="0" y2="20" stroke="#F3EBDB" stroke-width="1.4" opacity="0.45" />
+    </pattern>
+  </defs>
+
+  <g id="machu-picchu-group">
+    <!-- Base Mountain Silhouette -->
+    <!-- Left sub-peak (rounded jagged) -->
+    <path d="M 880 940 
+             C 890 840, 920 730, 970 700 
+             C 1010 680, 1050 740, 1080 790 
+             L 1080 960 L 880 960 Z" 
+          fill="#7F835F" />
+
+    <!-- Main Jagged Peak (Machu Picchu Huayna Picchu style) -->
+    <path d="M 1030 960 
+             L 1050 780 
+             C 1070 710, 1090 640, 1140 625 
+             C 1170 615, 1200 660, 1230 730 
+             C 1260 800, 1310 880, 1360 940 
+             L 1360 1000 L 1030 1000 Z" 
+          fill="#5C6044" />
+
+    <!-- Sunlight Facet on Main Peak (Left Face) -->
+    <path d="M 1050 780 
+             C 1070 710, 1090 640, 1140 625 
+             C 1150 670, 1160 770, 1170 960 
+             L 1030 960 L 1050 780 Z" 
+          fill="#8B8D69" />
+
+    <!-- Dark Shaded Right Flank -->
+    <path d="M 1140 625 
+             C 1170 615, 1200 660, 1230 730 
+             C 1260 800, 1310 880, 1360 940 
+             L 1170 960 
+             C 1160 770, 1150 670, 1140 625 Z" 
+          fill="#474B33" />
+
+    <!-- Second Ridge on Far Right of Peak -->
+    <path d="M 1240 760 
+             C 1280 720, 1320 740, 1370 820 
+             C 1400 870, 1420 920, 1430 960 
+             L 1320 960 Z" 
+          fill="#6F7454" />
+
+    <!-- Texture Overlay Patterns -->
+    <path d="M 1050 780 C 1070 710, 1090 640, 1140 625 C 1150 670, 1160 770, 1170 960 L 1030 960 Z" fill="url(#mountain-hatch-light)" />
+    <path d="M 1140 625 C 1170 615, 1200 660, 1230 730 C 1260 800, 1310 880, 1360 940 L 1170 960 Z" fill="url(#mountain-hatch)" />
+
+    <!-- Hand-Drawn Vertical Crag Contours -->
+    <g stroke="#2B2118" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Ridge Dividing Line -->
+      <path d="M 1140 625 C 1145 680, 1152 740, 1158 810 C 1164 880, 1168 930, 1170 960" />
+      <!-- Left Peak Silhouette Line -->
+      <path d="M 970 700 C 1000 730, 1030 780, 1050 830" />
+      <path d="M 1050 780 C 1075 700, 1095 645, 1140 625" />
+      <!-- Right Ridge Silhouette Line -->
+      <path d="M 1140 625 C 1175 625, 1210 670, 1235 735 C 1265 800, 1310 870, 1360 940" />
+      <!-- Terraced Ledges (Machu Picchu Agricultural Terraces style) -->
+      <path d="M 1090 790 L 1130 800" stroke-width="1.4" opacity="0.6" />
+      <path d="M 1080 820 L 1135 832" stroke-width="1.4" opacity="0.6" />
+      <path d="M 1070 855 L 1140 868" stroke-width="1.4" opacity="0.6" />
+      <path d="M 1060 890 L 1145 905" stroke-width="1.4" opacity="0.6" />
+      <path d="M 1055 925 L 1150 942" stroke-width="1.4" opacity="0.6" />
+      
+      <!-- Right Side Rock Strata -->
+      <path d="M 1175 680 L 1215 710" stroke-width="1.3" opacity="0.5" />
+      <path d="M 1180 730 L 1230 765" stroke-width="1.3" opacity="0.5" />
+      <path d="M 1190 780 L 1255 825" stroke-width="1.3" opacity="0.5" />
+      <path d="M 1205 840 L 1285 890" stroke-width="1.3" opacity="0.5" />
+    </g>
+
+    <!-- Cream Rock Highlights -->
+    <g stroke="#F3EBDB" stroke-width="1.5" stroke-linecap="round" opacity="0.65">
+      <path d="M 1135 635 L 1142 665" />
+      <path d="M 1120 670 L 1130 710" />
+      <path d="M 1105 730 L 1115 770" />
+      <path d="M 1090 795 L 1105 845" />
+    </g>
+  </g>
+</svg>

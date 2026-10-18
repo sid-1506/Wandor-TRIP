@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140" fill="none">
+  <!-- Imàgo Panoramic Dining Salon -->
+  <rect width="200" height="140" fill="#EFE8D6" rx="8" />
+  <!-- Large Arched Picture Window -->
+  <path d="M 30 120 L 30 40 A 70 70 0 0 1 170 40 L 170 120 Z" fill="#FBF8F2" stroke="#2B2118" stroke-width="1.6" />
+  <!-- Distant Rome Skyline in window -->
+  <polygon points="40,110 80,85 120,110" fill="#B9643A" />
+  <ellipse cx="140" cy="90" rx="14" ry="12" fill="#8B8D69" />
+  <!-- Table Setting -->
+  <ellipse cx="100" cy="115" rx="40" ry="15" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.2" />
+  <circle cx="100" cy="112" r="6" fill="#D9A877" />
+  <ellipse cx="85" cy="115" rx="4" ry="3" fill="#2B2118" />
+  <ellipse cx="115" cy="115" rx="4" ry="3" fill="#2B2118" />
+</svg>

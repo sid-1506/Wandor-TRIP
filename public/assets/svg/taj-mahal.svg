@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none" id="taj-mahal" data-depth="0.78">
+  <defs>
+    <pattern id="marble-hatch" width="6" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#2B2118" stroke-width="0.6" opacity="0.15" />
+    </pattern>
+  </defs>
+
+  <g id="taj-mahal-group">
+    <!-- Marble Plinth (Raised Podium) -->
+    <rect x="1330" y="910" width="320" height="50" fill="#EFE8D8" stroke="#2B2118" stroke-width="1.8" />
+    <line x1="1330" y1="925" x2="1650" y2="925" stroke="#2B2118" stroke-width="1.2" opacity="0.6" />
+
+    <!-- Left Outer Minaret (Far Left) -->
+    <g id="minaret-left-outer">
+      <!-- Minaret Shaft (Tapering Octagonal Tower) -->
+      <polygon points="1336,910 1340,730 1354,730 1358,910" fill="#F8F4EA" stroke="#2B2118" stroke-width="1.4" />
+      <!-- Balcony 1 -->
+      <rect x="1334" y="850" width="26" height="6" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <!-- Balcony 2 -->
+      <rect x="1336" y="790" width="22" height="6" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <!-- Top Balcony & Pavilion (Chattri) -->
+      <rect x="1338" y="730" width="18" height="6" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <!-- Small Dome on Minaret -->
+      <path d="M 1340 730 C 1340 718, 1347 712, 1347 712 C 1347 712, 1354 718, 1354 730 Z" fill="#FBF8F2" stroke="#2B2118" stroke-width="1.2" />
+      <line x1="1347" y1="712" x2="1347" y2="702" stroke="#2B2118" stroke-width="1.2" />
+    </g>
+
+    <!-- Left Inner Minaret -->
+    <g id="minaret-left-inner">
+      <polygon points="1404,910 1408,740 1420,740 1424,910" fill="#F8F4EA" stroke="#2B2118" stroke-width="1.4" />
+      <rect x="1403" y="852" width="22" height="6" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <rect x="1405" y="795" width="18" height="6" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <rect x="1406" y="740" width="16" height="5" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <path d="M 1408 740 C 1408 729, 1414 724, 1414 724 C 1414 724, 1420 729, 1420 740 Z" fill="#FBF8F2" stroke="#2B2118" stroke-width="1.2" />
+      <line x1="1414" y1="724" x2="1414" y2="714" stroke="#2B2118" stroke-width="1.2" />
+    </g>
+
+    <!-- Right Inner Minaret -->
+    <g id="minaret-right-inner">
+      <polygon points="1556,910 1560,740 1572,740 1576,910" fill="#F8F4EA" stroke="#2B2118" stroke-width="1.4" />
+      <rect x="1555" y="852" width="22" height="6" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <rect x="1557" y="795" width="18" height="6" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <rect x="1558" y="740" width="16" height="5" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <path d="M 1560 740 C 1560 729, 1566 724, 1566 724 C 1566 724, 1572 729, 1572 740 Z" fill="#FBF8F2" stroke="#2B2118" stroke-width="1.2" />
+      <line x1="1566" y1="724" x2="1566" y2="714" stroke="#2B2118" stroke-width="1.2" />
+    </g>
+
+    <!-- Right Outer Minaret (Far Right) -->
+    <g id="minaret-right-outer">
+      <polygon points="1622,910 1626,730 1640,730 1644,910" fill="#F8F4EA" stroke="#2B2118" stroke-width="1.4" />
+      <rect x="1620" y="850" width="26" height="6" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <rect x="1622" y="790" width="22" height="6" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <rect x="1624" y="730" width="18" height="6" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+      <path d="M 1626 730 C 1626 718, 1633 712, 1633 712 C 1633 712, 1640 718, 1640 730 Z" fill="#FBF8F2" stroke="#2B2118" stroke-width="1.2" />
+      <line x1="1633" y1="712" x2="1633" y2="702" stroke="#2B2118" stroke-width="1.2" />
+    </g>
+
+    <!-- Main Tomb Structure (Mausoleum Cube with Chamfered Corners) -->
+    <path d="M 1410 910 
+             L 1410 760 
+             L 1430 760 
+             L 1430 745 
+             L 1550 745 
+             L 1550 760 
+             L 1570 760 
+             L 1570 910 Z" 
+          fill="#FAF6ED" stroke="#2B2118" stroke-width="1.8" />
+
+    <!-- Marble Hatch Texture Overlay -->
+    <path d="M 1410 910 L 1410 760 L 1430 760 L 1430 745 L 1550 745 L 1550 760 L 1570 760 L 1570 910 Z" fill="url(#marble-hatch)" />
+
+    <!-- Left Flanking Chattri (Dome Pavilion) -->
+    <g id="chattri-left">
+      <rect x="1440" y="722" width="20" height="23" fill="#FAF6ED" stroke="#2B2118" stroke-width="1.2" />
+      <path d="M 1438 722 C 1438 708, 1450 702, 1450 702 C 1450 702, 1462 708, 1462 722 Z" fill="#FBF8F2" stroke="#2B2118" stroke-width="1.4" />
+      <line x1="1450" y1="702" x2="1450" y2="694" stroke="#2B2118" stroke-width="1.2" />
+    </g>
+
+    <!-- Right Flanking Chattri -->
+    <g id="chattri-right">
+      <rect x="1520" y="722" width="20" height="23" fill="#FAF6ED" stroke="#2B2118" stroke-width="1.2" />
+      <path d="M 1518 722 C 1518 708, 1530 702, 1530 702 C 1530 702, 1542 708, 1542 722 Z" fill="#FBF8F2" stroke="#2B2118" stroke-width="1.4" />
+      <line x1="1530" y1="702" x2="1530" y2="694" stroke="#2B2118" stroke-width="1.2" />
+    </g>
+
+    <!-- Central Monumental Onion Dome & Drum -->
+    <g id="main-onion-dome">
+      <!-- Cylindrical Drum Base -->
+      <rect x="1465" y="718" width="50" height="27" fill="#F5EFE0" stroke="#2B2118" stroke-width="1.5" />
+      <!-- Lotus Crest Band -->
+      <line x1="1462" y1="718" x2="1518" y2="718" stroke="#2B2118" stroke-width="1.8" />
+      <!-- Bulbous Onion Dome Curve -->
+      <path d="M 1465 718 
+               C 1455 700, 1450 675, 1468 650 
+               C 1478 636, 1488 630, 1490 626 
+               C 1492 630, 1502 636, 1512 650 
+               C 1530 675, 1525 700, 1515 718 Z" 
+            fill="#FCFAF5" stroke="#2B2118" stroke-width="2" />
+      <!-- Shading Arc on Dome (Right) -->
+      <path d="M 1490 626 
+               C 1492 630, 1502 636, 1512 650 
+               C 1530 675, 1525 700, 1515 718 
+               L 1490 718 Z" 
+            fill="#EFE8D6" opacity="0.45" />
+      <!-- Finial on Apex of Dome -->
+      <line x1="1490" y1="626" x2="1490" y2="602" stroke="#2B2118" stroke-width="1.8" stroke-linecap="round" />
+      <circle cx="1490" cy="612" r="3" fill="#D9A877" stroke="#2B2118" stroke-width="1.2" />
+      <circle cx="1490" cy="620" r="2" fill="#D9A877" stroke="#2B2118" stroke-width="1" />
+    </g>
+
+    <!-- Central Grand Pishtaq Portal (Recessed Pointed Arch Iwan) -->
+    <g id="central-iwan">
+      <!-- Outer Arch Frame -->
+      <rect x="1455" y="760" width="70" height="150" fill="#FAF5E8" stroke="#2B2118" stroke-width="1.6" />
+      <!-- Monumental Pointed Arch Portal -->
+      <path d="M 1466 910 
+               L 1466 820 
+               C 1466 795, 1480 782, 1490 774 
+               C 1500 782, 1514 795, 1514 820 
+               L 1514 910 Z" 
+            fill="#261E17" stroke="#2B2118" stroke-width="1.8" />
+      <!-- Cream Border Around Arch -->
+      <path d="M 1463 910 L 1463 820 C 1463 790, 1478 776, 1490 768 C 1502 776, 1517 790, 1517 820 L 1517 910" stroke="#F3EBDB" stroke-width="2.5" fill="none" opacity="0.95" />
+      <!-- Inner Lattice Doorway -->
+      <path d="M 1478 910 L 1478 860 C 1478 845, 1490 840, 1490 840 C 1490 840, 1502 845, 1502 860 L 1502 910 Z" fill="#130C07" stroke="#F3EBDB" stroke-width="1" />
+    </g>
+
+    <!-- Left Symmetrical Pishtaq Niches (Upper and Lower) -->
+    <g id="left-niches">
+      <!-- Upper Niche -->
+      <path d="M 1418 825 L 1418 785 C 1418 775, 1426 770, 1430 766 C 1434 770, 1442 775, 1442 785 L 1442 825 Z" fill="#261E17" stroke="#2B2118" stroke-width="1.4" />
+      <!-- Lower Niche -->
+      <path d="M 1418 895 L 1418 855 C 1418 845, 1426 840, 1430 836 C 1434 840, 1442 845, 1442 855 L 1442 895 Z" fill="#261E17" stroke="#2B2118" stroke-width="1.4" />
+    </g>
+
+    <!-- Right Symmetrical Pishtaq Niches (Upper and Lower) -->
+    <g id="right-niches">
+      <!-- Upper Niche -->
+      <path d="M 1538 825 L 1538 785 C 1538 775, 1546 770, 1550 766 C 1554 770, 1562 775, 1562 785 L 1562 825 Z" fill="#261E17" stroke="#2B2118" stroke-width="1.4" />
+      <!-- Lower Niche -->
+      <path d="M 1538 895 L 1538 855 C 1538 845, 1546 840, 1550 836 C 1554 840, 1562 845, 1562 855 L 1562 895 Z" fill="#261E17" stroke="#2B2118" stroke-width="1.4" />
+    </g>
+
+    <!-- Decorative Parapet Frieze on Roofline -->
+    <line x1="1410" y1="760" x2="1570" y2="760" stroke="#2B2118" stroke-width="1.5" />
+    <line x1="1430" y1="745" x2="1550" y2="745" stroke="#2B2118" stroke-width="1.5" />
+  </g>
+</svg>

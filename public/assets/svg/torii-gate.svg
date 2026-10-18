@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Torii Gate (Miyajima style) Sticker -->
+  <g filter="drop-shadow(0px 8px 16px rgba(43,33,24,0.18))">
+    <!-- White Sticker Backing -->
+    <path d="M 15 45 L 30 25 L 170 25 L 185 45 L 170 65 L 165 185 L 135 185 L 140 65 L 60 65 L 65 185 L 35 185 L 30 65 L 15 45 Z" 
+          stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" fill="#FFFFFF" />
+
+    <!-- Curved Upper Lintel (Kasagi) with Upward Flared Tips -->
+    <path d="M 15 40 
+             Q 100 28 185 40 
+             L 180 54 
+             Q 100 42 20 54 Z" 
+          fill="#2B2118" stroke="#2B2118" stroke-width="1.8" />
+
+    <!-- Top Red Lintel (Shimaki) -->
+    <polygon points="26,54 174,54 170,68 30,68" fill="#B9643A" stroke="#2B2118" stroke-width="1.6" />
+
+    <!-- Straight Tie Beam (Nuki) -->
+    <polygon points="35,85 165,85 165,97 35,97" fill="#B9643A" stroke="#2B2118" stroke-width="1.6" />
+
+    <!-- Central Plaque (Gakuzuka) -->
+    <rect x="94" y="68" width="12" height="17" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.2" />
+
+    <!-- Cylindrical Pillars (Hashira) -->
+    <!-- Left Pillar -->
+    <polygon points="48,68 62,68 65,185 45,185" fill="#B9643A" stroke="#2B2118" stroke-width="1.8" />
+    <rect x="43" y="170" width="24" height="15" fill="#2B2118" rx="2" />
+    <!-- Right Pillar -->
+    <polygon points="138,68 152,68 155,185 135,185" fill="#8E4526" stroke="#2B2118" stroke-width="1.8" />
+    <rect x="133" y="170" width="24" height="15" fill="#2B2118" rx="2" />
+
+    <!-- Water Ripples below Torii Gate -->
+    <path d="M 25 185 C 60 180, 140 180, 175 185" stroke="#8DA79A" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+</svg>

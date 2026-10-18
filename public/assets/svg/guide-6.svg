@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- guide-6: Spanish Steps & Trinità dei Monti -->
+  <rect width="120" height="120" rx="16" fill="#F8F3EA" />
+  <!-- Obelisk atop the steps -->
+  <polygon points="58,16 62,16 64,48 56,48" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+  <!-- Church of Trinità dei Monti in Background -->
+  <rect x="36" y="38" width="16" height="25" fill="#E8DFCD" stroke="#2B2118" stroke-width="1" />
+  <polygon points="34,38 44,26 54,38" fill="#B9643A" stroke="#2B2118" stroke-width="1" />
+  <rect x="68" y="38" width="16" height="25" fill="#E8DFCD" stroke="#2B2118" stroke-width="1" />
+  <polygon points="66,38 76,26 86,38" fill="#B9643A" stroke="#2B2118" stroke-width="1" />
+  <!-- Stepped Curving Terraces of the Spanish Steps -->
+  <polygon points="18,102 102,102 82,62 38,62" fill="#D9A877" stroke="#2B2118" stroke-width="1.4" />
+  <line x1="26" y1="92" x2="94" y2="92" stroke="#2B2118" stroke-width="1.2" />
+  <line x1="32" y1="82" x2="88" y2="82" stroke="#2B2118" stroke-width="1.2" />
+  <line x1="36" y1="72" x2="84" y2="72" stroke="#2B2118" stroke-width="1.2" />
+  <!-- Azalea Flower Planters in Magenta/Terracotta -->
+  <ellipse cx="32" cy="74" rx="5" ry="3" fill="#B9643A" />
+  <ellipse cx="88" cy="74" rx="5" ry="3" fill="#B9643A" />
+</svg>

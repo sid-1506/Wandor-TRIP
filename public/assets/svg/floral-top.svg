@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" fill="none" id="floral-top">
+  <!-- Garland Vine Running across top -->
+  <path d="M 0 60 C 240 100, 480 30, 720 70 C 960 110, 1080 40, 1200 60" stroke="#5E6045" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+  <!-- Olive Leaves Clustering along Vine -->
+  <g fill="#8B8D69" stroke="#2B2118" stroke-width="1.2">
+    <ellipse cx="140" cy="50" rx="18" ry="8" transform="rotate(-25 140 50)" />
+    <ellipse cx="165" cy="72" rx="16" ry="7" transform="rotate(35 165 72)" />
+    <ellipse cx="320" cy="40" rx="18" ry="8" transform="rotate(-40 320 40)" />
+    <ellipse cx="440" cy="48" rx="20" ry="9" transform="rotate(20 440 48)" />
+    <ellipse cx="580" cy="55" rx="17" ry="8" transform="rotate(-30 580 55)" />
+    <ellipse cx="780" cy="65" rx="18" ry="8" transform="rotate(45 780 65)" />
+    <ellipse cx="910" cy="52" rx="20" ry="9" transform="rotate(-15 910 52)" />
+    <ellipse cx="1060" cy="50" rx="18" ry="8" transform="rotate(30 1060 50)" />
+  </g>
+
+  <!-- Terracotta Poppies -->
+  <!-- Poppy 1 -->
+  <g transform="translate(220, 30)">
+    <circle cx="25" cy="25" r="22" fill="#B9643A" stroke="#2B2118" stroke-width="1.4" />
+    <circle cx="20" cy="22" r="16" fill="#CE7245" />
+    <circle cx="25" cy="25" r="8" fill="#2B2118" />
+    <circle cx="25" cy="25" r="3" fill="#D9A877" />
+  </g>
+  <!-- Poppy 2 -->
+  <g transform="translate(640, 20)">
+    <circle cx="25" cy="25" r="24" fill="#B9643A" stroke="#2B2118" stroke-width="1.4" />
+    <circle cx="22" cy="20" r="17" fill="#8E4526" />
+    <circle cx="25" cy="25" r="8" fill="#2B2118" />
+    <circle cx="25" cy="25" r="3" fill="#FAF6EE" />
+  </g>
+  <!-- Poppy 3 -->
+  <g transform="translate(980, 25)">
+    <circle cx="22" cy="22" r="20" fill="#B9643A" stroke="#2B2118" stroke-width="1.4" />
+    <circle cx="18" cy="18" r="14" fill="#D9A877" opacity="0.8" />
+    <circle cx="22" cy="22" r="7" fill="#2B2118" />
+  </g>
+
+  <!-- Cream Daisies -->
+  <!-- Daisy 1 -->
+  <g transform="translate(380, 45)">
+    <!-- 8 Petals -->
+    <ellipse cx="20" cy="5" rx="5" ry="12" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <ellipse cx="20" cy="35" rx="5" ry="12" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <ellipse cx="5" cy="20" rx="12" ry="5" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <ellipse cx="35" cy="20" rx="12" ry="5" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <ellipse cx="9" cy="9" rx="11" ry="5" transform="rotate(45 9 9)" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <ellipse cx="31" cy="31" rx="11" ry="5" transform="rotate(45 31 31)" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <ellipse cx="9" cy="31" rx="11" ry="5" transform="rotate(-45 9 31)" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <ellipse cx="31" cy="9" rx="11" ry="5" transform="rotate(-45 31 9)" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <circle cx="20" cy="20" r="7" fill="#D9A877" stroke="#2B2118" stroke-width="1.2" />
+  </g>
+  <!-- Daisy 2 -->
+  <g transform="translate(830, 40)">
+    <ellipse cx="18" cy="5" rx="4" ry="10" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <ellipse cx="18" cy="31" rx="4" ry="10" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <ellipse cx="5" cy="18" rx="10" ry="4" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <ellipse cx="31" cy="18" rx="10" ry="4" fill="#FAF6EE" stroke="#2B2118" stroke-width="1" />
+    <circle cx="18" cy="18" r="6" fill="#D9A877" stroke="#2B2118" stroke-width="1.2" />
+  </g>
+
+  <!-- Lavender Stems -->
+  <!-- Lavender 1 -->
+  <g transform="translate(510, 20) rotate(15)">
+    <line x1="10" y1="0" x2="10" y2="70" stroke="#5E6045" stroke-width="1.6" />
+    <ellipse cx="6" cy="15" rx="5" ry="3" fill="#8E859E" />
+    <ellipse cx="14" cy="15" rx="5" ry="3" fill="#8E859E" />
+    <ellipse cx="6" cy="26" rx="6" ry="3.5" fill="#7D748E" />
+    <ellipse cx="14" cy="26" rx="6" ry="3.5" fill="#7D748E" />
+    <ellipse cx="6" cy="37" rx="5" ry="3" fill="#8E859E" />
+    <ellipse cx="14" cy="37" rx="5" ry="3" fill="#8E859E" />
+  </g>
+  <!-- Lavender 2 -->
+  <g transform="translate(730, 30) rotate(-20)">
+    <line x1="10" y1="0" x2="10" y2="70" stroke="#5E6045" stroke-width="1.6" />
+    <ellipse cx="6" cy="15" rx="5" ry="3" fill="#8E859E" />
+    <ellipse cx="14" cy="15" rx="5" ry="3" fill="#8E859E" />
+    <ellipse cx="6" cy="26" rx="6" ry="3.5" fill="#7D748E" />
+    <ellipse cx="14" cy="26" rx="6" ry="3.5" fill="#7D748E" />
+  </g>
+</svg>

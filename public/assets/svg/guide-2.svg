@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- guide-2: Trevi Fountain -->
+  <rect width="120" height="120" rx="16" fill="#F8F3EA" />
+  <!-- Palace Facade Behind Fountain -->
+  <rect x="24" y="24" width="72" height="50" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.4" />
+  <polygon points="20,24 60,12 100,24" fill="#B9643A" stroke="#2B2118" stroke-width="1.4" />
+  <!-- Grand Niche (Oceanus) -->
+  <path d="M 46 64 L 46 36 A 14 14 0 0 1 74 36 L 74 64 Z" fill="#2B2118" />
+  <!-- Fountain Basin & Rocks -->
+  <path d="M 16 92 C 26 80, 40 76, 50 78 C 65 72, 80 74, 104 92 Z" fill="#D9A877" stroke="#2B2118" stroke-width="1.4" />
+  <!-- Water Cascades -->
+  <path d="M 12 94 C 34 88, 86 88, 108 94 L 108 104 L 12 104 Z" fill="#8DA79A" stroke="#2B2118" stroke-width="1.2" />
+  <line x1="28" y1="98" x2="48" y2="98" stroke="#FAF6EE" stroke-width="1.2" />
+  <line x1="68" y1="98" x2="92" y2="98" stroke="#FAF6EE" stroke-width="1.2" />
+</svg>

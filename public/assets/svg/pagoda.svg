@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" fill="none" id="pagoda-svg">
+  <defs>
+    <pattern id="roof-tiles" width="8" height="6" patternUnits="userSpaceOnUse">
+      <path d="M 0 6 Q 4 0 8 6" stroke="#2B2118" stroke-width="0.8" fill="none" opacity="0.35" />
+    </pattern>
+  </defs>
+
+  <g id="pagoda-structure" transform="translate(50, 20)">
+    <!-- Spire / Finial (Tiancha) -->
+    <line x1="250" y1="20" x2="250" y2="120" stroke="#2B2118" stroke-width="3" />
+    <!-- Golden Spire Discs -->
+    <ellipse cx="250" cy="45" rx="8" ry="4" fill="#D9A877" stroke="#2B2118" stroke-width="1.2" />
+    <ellipse cx="250" cy="65" rx="12" ry="5" fill="#D9A877" stroke="#2B2118" stroke-width="1.2" />
+    <ellipse cx="250" cy="85" rx="16" ry="6" fill="#D9A877" stroke="#2B2118" stroke-width="1.2" />
+    <ellipse cx="250" cy="105" rx="20" ry="7" fill="#D9A877" stroke="#2B2118" stroke-width="1.2" />
+    <circle cx="250" cy="20" r="6" fill="#D9A877" stroke="#2B2118" stroke-width="1.2" />
+
+    <!-- TIER 3 (Top Tier) -->
+    <!-- Sweeping Eaves Roof -->
+    <path d="M 170 160 
+             Q 250 120 330 160 
+             Q 355 130 365 145 
+             Q 250 100 135 145 
+             Q 145 130 170 160 Z" 
+          fill="#5E6045" stroke="#2B2118" stroke-width="2" />
+    <path d="M 170 160 Q 250 120 330 160 L 330 165 Q 250 125 170 165 Z" fill="#8B8D69" />
+    <!-- Dougong Brackets & Terracotta Chamber -->
+    <rect x="200" y="160" width="100" height="50" fill="#B9643A" stroke="#2B2118" stroke-width="1.8" />
+    <rect x="235" y="172" width="30" height="38" fill="#2B2118" />
+    <!-- Balcony Railing -->
+    <rect x="190" y="205" width="120" height="10" fill="#D9A877" stroke="#2B2118" stroke-width="1.4" />
+
+    <!-- TIER 2 (Middle Tier) -->
+    <!-- Sweeping Eaves Roof -->
+    <path d="M 120 250 
+             Q 250 190 380 250 
+             Q 420 210 435 230 
+             Q 250 160 65 230 
+             Q 80 210 120 250 Z" 
+          fill="#5E6045" stroke="#2B2118" stroke-width="2" />
+    <path d="M 120 250 Q 250 190 380 250 L 380 256 Q 250 196 120 256 Z" fill="#8B8D69" />
+    <!-- Terracotta Chamber 2 -->
+    <rect x="170" y="250" width="160" height="70" fill="#B9643A" stroke="#2B2118" stroke-width="2" />
+    <rect x="195" y="265" width="28" height="55" fill="#2B2118" />
+    <rect x="236" y="265" width="28" height="55" fill="#2B2118" />
+    <rect x="277" y="265" width="28" height="55" fill="#2B2118" />
+    <!-- Red Pillars (Dougong) -->
+    <line x1="180" y1="250" x2="180" y2="320" stroke="#8E4526" stroke-width="5" />
+    <line x1="320" y1="250" x2="320" y2="320" stroke="#8E4526" stroke-width="5" />
+    <!-- Balcony 2 -->
+    <rect x="155" y="315" width="190" height="14" fill="#D9A877" stroke="#2B2118" stroke-width="1.5" />
+
+    <!-- TIER 1 (Grand Base Tier) -->
+    <!-- Sweeping Eaves Roof -->
+    <path d="M 60 370 
+             Q 250 280 440 370 
+             Q 490 315 510 340 
+             Q 250 240 -10 340 
+             Q 10 315 60 370 Z" 
+          fill="#5E6045" stroke="#2B2118" stroke-width="2.5" />
+    <path d="M 60 370 Q 250 280 440 370 L 440 378 Q 250 288 60 378 Z" fill="#8B8D69" />
+    <!-- Base Chamber with Veranda -->
+    <rect x="130" y="370" width="240" height="120" fill="#B9643A" stroke="#2B2118" stroke-width="2.5" />
+    <!-- Grand Double Doorway -->
+    <rect x="220" y="400" width="60" height="90" fill="#2B2118" stroke="#D9A877" stroke-width="2" />
+    <line x1="250" y1="400" x2="250" y2="490" stroke="#D9A877" stroke-width="2" />
+    <!-- Lattice Screens -->
+    <rect x="150" y="405" width="45" height="70" fill="#8E4526" stroke="#2B2118" stroke-width="1.5" />
+    <rect x="305" y="405" width="45" height="70" fill="#8E4526" stroke="#2B2118" stroke-width="1.5" />
+    <!-- Veranda Red Columns -->
+    <rect x="140" y="370" width="12" height="120" fill="#8E4526" stroke="#2B2118" stroke-width="1.8" />
+    <rect x="348" y="370" width="12" height="120" fill="#8E4526" stroke="#2B2118" stroke-width="1.8" />
+    <rect x="200" y="370" width="10" height="120" fill="#8E4526" stroke="#2B2118" stroke-width="1.5" />
+    <rect x="290" y="370" width="10" height="120" fill="#8E4526" stroke="#2B2118" stroke-width="1.5" />
+
+    <!-- Stone Masonry Foundation / Plinth Steps -->
+    <polygon points="100,490 400,490 420,530 80,530" fill="#F3EBDB" stroke="#2B2118" stroke-width="2" />
+    <polygon points="60,530 440,530 460,570 40,570" fill="#E8DEC8" stroke="#2B2118" stroke-width="2" />
+    <polygon points="20,570 480,570 500,610 0,610" fill="#D9A877" stroke="#2B2118" stroke-width="2" />
+
+    <!-- Central Foundation Stairs -->
+    <polygon points="210,490 290,490 310,610 190,610" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.8" />
+    <line x1="205" y1="520" x2="295" y2="520" stroke="#2B2118" stroke-width="1.4" />
+    <line x1="200" y1="550" x2="300" y2="550" stroke="#2B2118" stroke-width="1.4" />
+    <line x1="195" y1="580" x2="305" y2="580" stroke="#2B2118" stroke-width="1.4" />
+  </g>
+</svg>

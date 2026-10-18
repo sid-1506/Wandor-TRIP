@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140" fill="none">
+  <!-- Hassler Suite Bedroom -->
+  <rect width="200" height="140" fill="#F8F3EA" rx="8" />
+  <!-- Headboard -->
+  <rect x="35" y="30" width="130" height="60" fill="#B9643A" stroke="#2B2118" stroke-width="1.2" rx="4" />
+  <!-- Bed & Pillows -->
+  <rect x="45" y="60" width="110" height="65" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.4" />
+  <rect x="52" y="48" width="40" height="20" rx="3" fill="#E8DFCD" stroke="#2B2118" stroke-width="1" />
+  <rect x="108" y="48" width="40" height="20" rx="3" fill="#E8DFCD" stroke="#2B2118" stroke-width="1" />
+  <line x1="45" y1="85" x2="155" y2="85" stroke="#D9A877" stroke-width="2.5" />
+  <!-- Nightstands & Lamps -->
+  <rect x="15" y="65" width="20" height="35" fill="#5E6045" stroke="#2B2118" stroke-width="1" />
+  <ellipse cx="25" cy="55" rx="8" ry="6" fill="#D9A877" />
+  <rect x="165" y="65" width="20" height="35" fill="#5E6045" stroke="#2B2118" stroke-width="1" />
+  <ellipse cx="175" cy="55" rx="8" ry="6" fill="#D9A877" />
+</svg>

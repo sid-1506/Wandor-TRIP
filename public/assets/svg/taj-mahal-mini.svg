@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" fill="none">
+  <!-- Taj Mahal Mini Sticker -->
+  <g filter="drop-shadow(0px 8px 16px rgba(43,33,24,0.18))">
+    <!-- White Sticker Backing -->
+    <path d="M 15 165 L 20 65 L 35 65 L 50 165 L 60 70 L 90 20 L 110 20 L 140 70 L 150 165 L 165 65 L 180 65 L 185 165 Z" 
+          stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" fill="#FFFFFF" />
+
+    <!-- Marble Plinth -->
+    <rect x="25" y="145" width="150" height="20" fill="#EFE8D8" stroke="#2B2118" stroke-width="1.8" />
+
+    <!-- Minarets -->
+    <polygon points="26,145 30,65 38,65 42,145" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.4" />
+    <path d="M 30 65 C 30 55, 34 50, 34 50 C 34 50, 38 55, 38 65 Z" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+
+    <polygon points="158,145 162,65 170,65 174,145" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.4" />
+    <path d="M 162 65 C 162 55, 166 50, 166 50 C 166 50, 170 55, 170 65 Z" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+
+    <!-- Tomb Cube -->
+    <rect x="55" y="85" width="90" height="60" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.8" />
+
+    <!-- Onion Dome -->
+    <path d="M 80 85 C 72 70, 70 50, 85 30 C 95 18, 100 12, 100 8 C 100 12, 105 18, 115 30 C 130 50, 128 70, 120 85 Z" fill="#FFFFFF" stroke="#2B2118" stroke-width="2" />
+    <line x1="100" y1="8" x2="100" y2="0" stroke="#2B2118" stroke-width="1.8" />
+
+    <!-- Iwan Arch Portal -->
+    <path d="M 85 145 L 85 105 A 15 15 0 0 1 115 105 L 115 145 Z" fill="#2B2118" stroke="#F3EBDB" stroke-width="1.5" />
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 260" fill="none">
+  <!-- Eiffel Tower Sticker -->
+  <g filter="drop-shadow(0px 8px 16px rgba(43,33,24,0.18))">
+    <!-- White Sticker Backing -->
+    <path d="M 25 250 L 55 180 L 68 120 L 80 40 L 90 15 L 100 40 L 112 120 L 125 180 L 155 250 Z" 
+          stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" fill="#FFFFFF" />
+
+    <!-- Eiffel Tower Lattice Structure in Dark Terracotta / Puddle Iron -->
+    <!-- Base Arch between Pylons -->
+    <path d="M 45 250 L 58 180 L 122 180 L 135 250 L 115 250 C 110 210, 70 210, 65 250 Z" fill="#8E4526" stroke="#2B2118" stroke-width="1.8" />
+    <path d="M 68 250 C 72 215, 108 215, 112 250 Z" fill="#2B2118" opacity="0.4" />
+
+    <!-- Platform 1 -->
+    <rect x="52" y="174" width="76" height="10" fill="#B9643A" stroke="#2B2118" stroke-width="1.5" />
+
+    <!-- Tier 2 (Mid Tower) -->
+    <polygon points="60,174 72,120 108,120 120,174" fill="#8E4526" stroke="#2B2118" stroke-width="1.8" />
+    <!-- Cross Bracing in Tier 2 -->
+    <line x1="62" y1="174" x2="108" y2="120" stroke="#F3EBDB" stroke-width="1.2" opacity="0.6" />
+    <line x1="118" y1="174" x2="72" y2="120" stroke="#F3EBDB" stroke-width="1.2" opacity="0.6" />
+
+    <!-- Platform 2 -->
+    <rect x="68" y="114" width="44" height="8" fill="#B9643A" stroke="#2B2118" stroke-width="1.5" />
+
+    <!-- Tier 3 (Spire Shaft) -->
+    <polygon points="76,114 87,30 93,30 104,114" fill="#8E4526" stroke="#2B2118" stroke-width="1.8" />
+    <!-- Dome Top & Spire Tip -->
+    <rect x="85" y="24" width="10" height="7" fill="#F3EBDB" stroke="#2B2118" stroke-width="1" />
+    <line x1="90" y1="24" x2="90" y2="8" stroke="#2B2118" stroke-width="2.2" stroke-linecap="round" />
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none" id="plants-foreground-right" data-depth="1.30">
+  <g id="fg-plants-right">
+    <!-- Leaf 1 (Tall Arching Leftward Frond) -->
+    <path d="M 1900 1080 
+             C 1870 1010, 1830 920, 1775 870 
+             C 1760 885, 1765 915, 1785 960 
+             C 1805 1010, 1845 1050, 1880 1080 Z" 
+          fill="#3B3733" stroke="#2B2118" stroke-width="2" />
+    <path d="M 1775 870 C 1800 930, 1835 1010, 1880 1080" stroke="#F3EBDB" stroke-width="1.8" stroke-linecap="round" opacity="0.65" />
+
+    <!-- Leaf 2 (Upright Center Olive Frond) -->
+    <path d="M 1880 1080 
+             C 1865 990, 1850 900, 1825 840 
+             C 1845 845, 1865 870, 1875 920 
+             C 1885 970, 1890 1030, 1895 1080 Z" 
+          fill="#52543C" stroke="#2B2118" stroke-width="2" />
+    <path d="M 1825 840 C 1845 910, 1865 1000, 1895 1080" stroke="#F3EBDB" stroke-width="1.8" stroke-linecap="round" opacity="0.65" />
+
+    <!-- Leaf 3 (Outer Frond Cropped by Right Edge) -->
+    <path d="M 1910 1080 
+             C 1895 1000, 1885 920, 1880 870 
+             C 1900 875, 1915 895, 1920 930 
+             L 1920 1080 Z" 
+          fill="#353725" stroke="#2B2118" stroke-width="2" />
+    <path d="M 1880 870 C 1895 930, 1910 1010, 1920 1080" stroke="#F3EBDB" stroke-width="1.8" stroke-linecap="round" opacity="0.65" />
+
+    <!-- Leaf 4 (Lower Spreading Sprig) -->
+    <path d="M 1840 1080 
+             C 1800 1040, 1750 990, 1715 970 
+             C 1710 990, 1725 1015, 1755 1045 
+             C 1785 1070, 1815 1080, 1840 1080 Z" 
+          fill="#5E6045" stroke="#2B2118" stroke-width="2" />
+    <path d="M 1715 970 C 1750 1005, 1795 1050, 1840 1080" stroke="#F3EBDB" stroke-width="1.8" stroke-linecap="round" opacity="0.65" />
+  </g>
+</svg>

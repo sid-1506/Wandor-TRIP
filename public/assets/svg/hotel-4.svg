@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <rect width="400" height="260" fill="#F8F4EA" rx="12" />
+  <!-- Villa Spalletti Trivelli (Noble Italian neoclassical residence) -->
+  <rect x="50" y="60" width="300" height="180" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.8" />
+  <!-- Ionic Pediment at Center -->
+  <polygon points="140,60 200,20 260,60" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.6" />
+  <!-- Classical Columns -->
+  <rect x="155" y="60" width="12" height="180" fill="#E8DFCD" stroke="#2B2118" stroke-width="1.2" />
+  <rect x="180" y="60" width="12" height="180" fill="#E8DFCD" stroke="#2B2118" stroke-width="1.2" />
+  <rect x="208" y="60" width="12" height="180" fill="#E8DFCD" stroke="#2B2118" stroke-width="1.2" />
+  <rect x="233" y="60" width="12" height="180" fill="#E8DFCD" stroke="#2B2118" stroke-width="1.2" />
+  <!-- Symmetrical Windows with Pediments -->
+  <!-- Left Windows -->
+  <polygon points="75,80 95,68 115,80" fill="#B9643A" stroke="#2B2118" stroke-width="1" />
+  <rect x="80" y="80" width="30" height="36" fill="#2B2118" />
+  <rect x="80" y="140" width="30" height="40" fill="#2B2118" />
+  <!-- Right Windows -->
+  <polygon points="285,80 305,68 325,80" fill="#B9643A" stroke="#2B2118" stroke-width="1" />
+  <rect x="290" y="80" width="30" height="36" fill="#2B2118" />
+  <rect x="290" y="140" width="30" height="40" fill="#2B2118" />
+  <!-- Center Main Doorway -->
+  <rect x="188" y="170" width="24" height="70" fill="#2B2118" />
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" fill="none">
+  <!-- Sydney Opera House Sticker -->
+  <g filter="drop-shadow(0px 8px 16px rgba(43,33,24,0.18))">
+    <!-- White Sticker Backing -->
+    <path d="M 20 160 L 25 120 L 50 80 L 85 45 L 120 45 L 135 70 L 165 40 L 195 40 L 205 75 L 225 120 L 220 160 Z" 
+          stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" fill="#FFFFFF" />
+
+    <!-- Granite Base Podium -->
+    <rect x="25" y="130" width="190" height="30" fill="#B9643A" stroke="#2B2118" stroke-width="2" />
+    <line x1="25" y1="145" x2="215" y2="145" stroke="#2B2118" stroke-width="1.2" />
+
+    <!-- Iconic Sail Shells (Utzon Vaults) in Cream -->
+    <!-- Shell 1 (Small Left) -->
+    <path d="M 40 130 C 45 100, 65 85, 80 85 C 90 95, 95 115, 95 130 Z" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.8" />
+    
+    <!-- Shell 2 (Grand Center Left) -->
+    <path d="M 65 130 C 70 85, 95 48, 125 48 C 140 68, 145 100, 145 130 Z" fill="#FAF6EE" stroke="#2B2118" stroke-width="2" />
+    <path d="M 100 52 C 125 75, 140 100, 145 130 L 125 130 C 120 100, 105 75, 100 52 Z" fill="#E8DEC8" />
+
+    <!-- Shell 3 (Grand Center Right) -->
+    <path d="M 130 130 C 135 80, 160 42, 190 42 C 205 65, 210 98, 210 130 Z" fill="#FAF6EE" stroke="#2B2118" stroke-width="2" />
+    <path d="M 165 46 C 190 70, 205 98, 210 130 L 190 130 C 185 98, 170 70, 165 46 Z" fill="#E8DEC8" />
+
+    <!-- Dark Glass Walls Under Vaults -->
+    <path d="M 80 130 L 80 95 L 95 130 Z" fill="#2B2118" />
+    <path d="M 125 130 L 125 65 L 145 130 Z" fill="#2B2118" />
+    <path d="M 190 130 L 190 60 L 210 130 Z" fill="#2B2118" />
+  </g>
+</svg>

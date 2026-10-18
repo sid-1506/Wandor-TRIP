@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140" fill="none">
+  <!-- View down to Piazza di Spagna & Spanish Steps -->
+  <rect width="200" height="140" fill="#F8F3EA" rx="8" />
+  <!-- Church of Trinità dei Monti Twin Towers -->
+  <rect x="50" y="30" width="28" height="60" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+  <polygon points="46,30 64,12 82,30" fill="#B9643A" stroke="#2B2118" stroke-width="1.2" />
+  <rect x="122" y="30" width="28" height="60" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.2" />
+  <polygon points="118,30 136,12 154,30" fill="#B9643A" stroke="#2B2118" stroke-width="1.2" />
+  <rect x="78" y="45" width="44" height="45" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.2" />
+  <!-- Steps descending -->
+  <polygon points="30,135 170,135 130,90 70,90" fill="#D9A877" stroke="#2B2118" stroke-width="1.2" />
+  <line x1="45" y1="120" x2="155" y2="120" stroke="#2B2118" stroke-width="1" />
+  <line x1="55" y1="105" x2="145" y2="105" stroke="#2B2118" stroke-width="1" />
+</svg>

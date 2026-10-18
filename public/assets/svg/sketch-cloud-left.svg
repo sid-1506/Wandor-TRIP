@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none" id="sketch-cloud-left" data-depth="0.30">
+  <g stroke="#2B2118" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.32" stroke-dasharray="8 5">
+    <!-- Main Cloud Silhouette -->
+    <path d="M 120 380 
+             C 105 380, 85 365, 95 345 
+             C 105 325, 130 320, 145 325 
+             C 155 300, 185 285, 215 295 
+             C 240 270, 280 265, 310 285 
+             C 335 275, 370 285, 385 310 
+             C 410 320, 420 350, 405 375 
+             C 425 390, 415 420, 390 425 
+             C 380 435, 350 440, 335 430 
+             C 315 445, 275 445, 255 435 
+             C 235 448, 195 445, 175 430 
+             C 155 440, 125 430, 115 410 
+             C 100 405, 105 385, 120 380 Z" />
+    
+    <!-- Delicate Inner Contour Hatching -->
+    <path d="M 145 340 C 160 330, 180 335, 190 345" stroke-dasharray="4 4" opacity="0.7" />
+    <path d="M 230 310 C 255 300, 280 305, 295 320" stroke-dasharray="5 5" opacity="0.7" />
+    <path d="M 325 315 C 345 305, 370 315, 375 330" stroke-dasharray="4 4" opacity="0.7" />
+    <path d="M 200 415 C 230 422, 260 420, 285 412" stroke-dasharray="6 4" opacity="0.6" />
+  </g>
+</svg>

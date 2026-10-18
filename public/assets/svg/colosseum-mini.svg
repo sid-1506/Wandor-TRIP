@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <!-- Colosseum Mini Sticker -->
+  <g filter="drop-shadow(0px 8px 16px rgba(43,33,24,0.18))">
+    <!-- White Sticker Backing -->
+    <path d="M 20 145 L 25 70 L 45 45 L 90 35 L 140 40 L 175 60 L 180 145 Z" 
+          stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" fill="#FFFFFF" />
+
+    <!-- Colosseum Ruin Silhouette -->
+    <path d="M 30 140 L 35 70 L 55 50 L 95 42 L 140 48 L 170 70 L 170 140 Z" fill="#B9643A" stroke="#2B2118" stroke-width="2" />
+    <path d="M 105 45 L 140 48 L 170 70 L 170 140 L 105 140 Z" fill="#8E4526" />
+
+    <!-- Arches Tier 2 -->
+    <g fill="#2B2118">
+      <path d="M 45 80 L 45 62 A 7 7 0 0 1 59 62 L 59 80 Z" />
+      <path d="M 72 75 L 72 58 A 7 7 0 0 1 86 58 L 86 75 Z" />
+      <path d="M 98 75 L 98 58 A 7 7 0 0 1 112 58 L 112 75 Z" />
+      <path d="M 124 78 L 124 62 A 7 7 0 0 1 138 62 L 138 78 Z" />
+      <path d="M 148 85 L 148 70 A 7 7 0 0 1 162 70 L 162 85 Z" />
+    </g>
+
+    <!-- Arches Tier 1 -->
+    <g fill="#1A120B">
+      <path d="M 42 125 L 42 98 A 8 8 0 0 1 58 98 L 58 125 Z" />
+      <path d="M 69 122 L 69 95 A 8 8 0 0 1 85 95 L 85 122 Z" />
+      <path d="M 96 122 L 96 95 A 8 8 0 0 1 112 95 L 112 122 Z" />
+      <path d="M 123 125 L 123 98 A 8 8 0 0 1 139 98 L 139 125 Z" />
+      <path d="M 147 130 L 147 105 A 8 8 0 0 1 163 105 L 163 130 Z" />
+    </g>
+
+    <!-- Ground Line -->
+    <line x1="20" y1="140" x2="180" y2="140" stroke="#2B2118" stroke-width="2.2" stroke-linecap="round" />
+  </g>
+</svg>

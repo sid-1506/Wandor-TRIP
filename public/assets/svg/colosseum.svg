@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none" id="colosseum" data-depth="0.80">
+  <defs>
+    <pattern id="colo-hatch" width="8" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(25)">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#2B2118" stroke-width="0.9" opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <g id="colosseum-group">
+    <!-- Colosseum Base Mass (Curved Terracotta Wall) -->
+    <!-- Broken Ruin Silhouette at Top -->
+    <path d="M 430 960 
+             L 440 760 
+             L 460 740 
+             L 490 735 
+             L 520 710 
+             L 570 710 
+             L 600 705 
+             L 670 705 
+             L 730 730 
+             L 780 750 
+             L 820 780 
+             L 840 820 
+             L 840 980 
+             L 430 980 Z" 
+          fill="#B9643A" />
+
+    <!-- Right Side Curving Shadow (Dark Terracotta) -->
+    <path d="M 680 710 
+             L 730 730 
+             L 780 750 
+             L 820 780 
+             L 840 820 
+             L 840 980 
+             L 670 980 
+             L 670 710 Z" 
+          fill="#944722" />
+
+    <!-- Colosseum Hatch Overlay -->
+    <path d="M 430 960 L 440 760 L 520 710 L 670 705 L 840 820 L 840 980 L 430 980 Z" fill="url(#colo-hatch)" />
+
+    <!-- Horizontal Classical Entablature Bands (Cornices) -->
+    <!-- Attic Cornice -->
+    <path d="M 460 740 Q 640 725 820 780" stroke="#F3EBDB" stroke-width="5" stroke-linecap="round" opacity="0.85" />
+    <path d="M 460 740 Q 640 725 820 780" stroke="#2B2118" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Mid Cornice (between 2nd and 3rd tiers) -->
+    <path d="M 445 795 Q 640 780 835 835" stroke="#F3EBDB" stroke-width="4.5" stroke-linecap="round" opacity="0.8" />
+    <path d="M 445 795 Q 640 780 835 835" stroke="#2B2118" stroke-width="1.8" stroke-linecap="round" />
+
+    <!-- Lower Cornice (between 1st and 2nd tiers) -->
+    <path d="M 435 870 Q 640 855 840 910" stroke="#F3EBDB" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+    <path d="M 435 870 Q 640 855 840 910" stroke="#2B2118" stroke-width="1.8" stroke-linecap="round" />
+
+    <!-- Top Attic Tier (Windows / Square Openings) -->
+    <g fill="#2B2118" opacity="0.85">
+      <rect x="525" y="720" width="14" height="12" rx="2" />
+      <rect x="555" y="718" width="14" height="12" rx="2" />
+      <rect x="585" y="716" width="14" height="12" rx="2" />
+      <rect x="615" y="716" width="14" height="12" rx="2" />
+      <rect x="645" y="718" width="14" height="12" rx="2" />
+      <rect x="675" y="722" width="14" height="12" rx="2" />
+      <rect x="705" y="728" width="14" height="12" rx="2" />
+      <rect x="735" y="736" width="14" height="12" rx="2" />
+    </g>
+
+    <!-- Upper Tier Arches (Tier 2) -->
+    <g id="tier-2-arches">
+      <!-- Arch 1 -->
+      <path d="M 465 790 L 465 765 A 11 11 0 0 1 487 765 L 487 790 Z" fill="#241B14" stroke="#F3EBDB" stroke-width="1.6" />
+      <!-- Arch 2 -->
+      <path d="M 500 786 L 500 760 A 12 12 0 0 1 524 760 L 524 786 Z" fill="#241B14" stroke="#F3EBDB" stroke-width="1.6" />
+      <!-- Arch 3 -->
+      <path d="M 538 782 L 538 755 A 13 13 0 0 1 564 755 L 564 782 Z" fill="#241B14" stroke="#F3EBDB" stroke-width="1.6" />
+      <!-- Arch 4 -->
+      <path d="M 578 780 L 578 753 A 13 13 0 0 1 604 753 L 604 780 Z" fill="#241B14" stroke="#F3EBDB" stroke-width="1.6" />
+      <!-- Arch 5 -->
+      <path d="M 618 780 L 618 753 A 13 13 0 0 1 644 753 L 644 780 Z" fill="#241B14" stroke="#F3EBDB" stroke-width="1.6" />
+      <!-- Arch 6 -->
+      <path d="M 658 782 L 658 755 A 13 13 0 0 1 684 755 L 684 782 Z" fill="#241B14" stroke="#F3EBDB" stroke-width="1.6" />
+      <!-- Arch 7 -->
+      <path d="M 698 787 L 698 760 A 12 12 0 0 1 722 760 L 722 787 Z" fill="#241B14" stroke="#F3EBDB" stroke-width="1.6" />
+      <!-- Arch 8 -->
+      <path d="M 735 794 L 735 768 A 12 12 0 0 1 759 768 L 759 794 Z" fill="#241B14" stroke="#F3EBDB" stroke-width="1.6" />
+      <!-- Arch 9 -->
+      <path d="M 772 804 L 772 780 A 11 11 0 0 1 794 780 L 794 804 Z" fill="#241B14" stroke="#F3EBDB" stroke-width="1.6" />
+      <!-- Arch 10 -->
+      <path d="M 806 816 L 806 794 A 10 10 0 0 1 826 794 L 826 816 Z" fill="#241B14" stroke="#F3EBDB" stroke-width="1.6" />
+    </g>
+
+    <!-- Lower Tier Arches (Tier 1) -->
+    <g id="tier-1-arches">
+      <!-- Arch 1 -->
+      <path d="M 455 865 L 455 830 A 14 14 0 0 1 483 830 L 483 865 Z" fill="#1C140E" stroke="#F3EBDB" stroke-width="2" />
+      <!-- Arch 2 -->
+      <path d="M 495 860 L 495 824 A 15 15 0 0 1 525 824 L 525 860 Z" fill="#1C140E" stroke="#F3EBDB" stroke-width="2" />
+      <!-- Arch 3 -->
+      <path d="M 537 856 L 537 820 A 16 16 0 0 1 569 820 L 569 856 Z" fill="#1C140E" stroke="#F3EBDB" stroke-width="2" />
+      <!-- Arch 4 -->
+      <path d="M 581 854 L 581 818 A 16 16 0 0 1 613 818 L 613 854 Z" fill="#1C140E" stroke="#F3EBDB" stroke-width="2" />
+      <!-- Arch 5 -->
+      <path d="M 625 854 L 625 818 A 16 16 0 0 1 657 818 L 657 854 Z" fill="#1C140E" stroke="#F3EBDB" stroke-width="2" />
+      <!-- Arch 6 -->
+      <path d="M 669 856 L 669 820 A 16 16 0 0 1 701 820 L 701 856 Z" fill="#1C140E" stroke="#F3EBDB" stroke-width="2" />
+      <!-- Arch 7 -->
+      <path d="M 713 861 L 713 825 A 15 15 0 0 1 743 825 L 743 861 Z" fill="#1C140E" stroke="#F3EBDB" stroke-width="2" />
+      <!-- Arch 8 -->
+      <path d="M 755 868 L 755 834 A 14 14 0 0 1 783 834 L 783 868 Z" fill="#1C140E" stroke="#F3EBDB" stroke-width="2" />
+      <!-- Arch 9 -->
+      <path d="M 794 878 L 794 846 A 13 13 0 0 1 820 846 L 820 878 Z" fill="#1C140E" stroke="#F3EBDB" stroke-width="2" />
+    </g>
+
+    <!-- Ground Level Arches (Tier 0) -->
+    <g id="tier-0-arches">
+      <path d="M 450 950 L 450 905 A 15 15 0 0 1 480 905 L 480 950 Z" fill="#150E09" stroke="#2B2118" stroke-width="1.8" />
+      <path d="M 494 945 L 494 898 A 16 16 0 0 1 526 898 L 526 945 Z" fill="#150E09" stroke="#2B2118" stroke-width="1.8" />
+      <path d="M 538 942 L 538 894 A 17 17 0 0 1 572 894 L 572 942 Z" fill="#150E09" stroke="#2B2118" stroke-width="1.8" />
+      <path d="M 584 940 L 584 892 A 17 17 0 0 1 618 892 L 618 940 Z" fill="#150E09" stroke="#2B2118" stroke-width="1.8" />
+      <path d="M 630 940 L 630 892 A 17 17 0 0 1 664 892 L 664 940 Z" fill="#150E09" stroke="#2B2118" stroke-width="1.8" />
+      <path d="M 676 942 L 676 894 A 17 17 0 0 1 710 894 L 710 942 Z" fill="#150E09" stroke="#2B2118" stroke-width="1.8" />
+      <path d="M 722 947 L 722 900 A 16 16 0 0 1 754 900 L 754 947 Z" fill="#150E09" stroke="#2B2118" stroke-width="1.8" />
+      <path d="M 766 954 L 766 910 A 15 15 0 0 1 796 910 L 796 954 Z" fill="#150E09" stroke="#2B2118" stroke-width="1.8" />
+      <path d="M 808 962 L 808 920 A 14 14 0 0 1 836 920 L 836 962 Z" fill="#150E09" stroke="#2B2118" stroke-width="1.8" />
+    </g>
+
+    <!-- Structural Outer Ruin Outline and Vertical Masonry Buttress Lines -->
+    <g stroke="#2B2118" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Outer Top Rim Profile with jagged ruined sections -->
+      <path d="M 430 960 L 440 760 L 460 740 L 490 735 L 520 710 L 570 710 L 600 705 L 670 705 L 730 730 L 780 750 L 820 780 L 840 820 L 840 980" />
+      <!-- Vertical Pilaster Strips between Arches -->
+      <line x1="492" y1="745" x2="492" y2="945" stroke-width="1.4" opacity="0.6" />
+      <line x1="531" y1="738" x2="531" y2="942" stroke-width="1.4" opacity="0.6" />
+      <line x1="571" y1="735" x2="571" y2="940" stroke-width="1.4" opacity="0.6" />
+      <line x1="611" y1="735" x2="611" y2="940" stroke-width="1.4" opacity="0.6" />
+      <line x1="651" y1="738" x2="651" y2="942" stroke-width="1.4" opacity="0.6" />
+      <line x1="691" y1="745" x2="691" y2="946" stroke-width="1.4" opacity="0.6" />
+      <line x1="728" y1="755" x2="728" y2="952" stroke-width="1.4" opacity="0.6" />
+      <line x1="762" y1="768" x2="762" y2="958" stroke-width="1.4" opacity="0.6" />
+    </g>
+  </g>
+</svg>

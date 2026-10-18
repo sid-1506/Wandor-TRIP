@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <rect width="400" height="260" fill="#F8F4EA" rx="12" />
+  <!-- Hotel de Russie (Historic Roman Palazzo with Secret Pine Garden) -->
+  <rect x="40" y="50" width="320" height="190" fill="#F3EBDB" stroke="#2B2118" stroke-width="1.8" />
+  <!-- Terracotta Tile Roof -->
+  <polygon points="30,50 60,20 340,20 370,50" fill="#8E4526" stroke="#2B2118" stroke-width="1.6" />
+  <!-- Classical Roman Shutter Windows (Olive shutters) -->
+  <g id="shutters">
+    <rect x="70" y="70" width="30" height="40" fill="#2B2118" />
+    <rect x="58" y="70" width="10" height="40" fill="#5E6045" stroke="#2B2118" stroke-width="1" />
+    <rect x="102" y="70" width="10" height="40" fill="#5E6045" stroke="#2B2118" stroke-width="1" />
+
+    <rect x="140" y="70" width="30" height="40" fill="#2B2118" />
+    <rect x="128" y="70" width="10" height="40" fill="#5E6045" stroke="#2B2118" stroke-width="1" />
+    <rect x="172" y="70" width="10" height="40" fill="#5E6045" stroke="#2B2118" stroke-width="1" />
+
+    <rect x="230" y="70" width="30" height="40" fill="#2B2118" />
+    <rect x="218" y="70" width="10" height="40" fill="#5E6045" stroke="#2B2118" stroke-width="1" />
+    <rect x="262" y="70" width="10" height="40" fill="#5E6045" stroke="#2B2118" stroke-width="1" />
+
+    <rect x="300" y="70" width="30" height="40" fill="#2B2118" />
+    <rect x="288" y="70" width="10" height="40" fill="#5E6045" stroke="#2B2118" stroke-width="1" />
+    <rect x="332" y="70" width="10" height="40" fill="#5E6045" stroke="#2B2118" stroke-width="1" />
+  </g>
+  <!-- Arched Roman Courtyard Portico at Ground -->
+  <path d="M 60 240 L 60 170 A 25 25 0 0 1 110 170 L 110 240 Z" fill="#2B2118" />
+  <path d="M 135 240 L 135 170 A 25 25 0 0 1 185 170 L 185 240 Z" fill="#2B2118" />
+  <path d="M 215 240 L 215 170 A 25 25 0 0 1 265 170 L 265 240 Z" fill="#2B2118" />
+  <path d="M 290 240 L 290 170 A 25 25 0 0 1 340 170 L 340 240 Z" fill="#2B2118" />
+  <!-- Roman Pine Tops Peeking over Roof -->
+  <ellipse cx="70" cy="18" rx="28" ry="12" fill="#5E6045" />
+  <ellipse cx="320" cy="14" rx="32" ry="14" fill="#4B4E36" />
+</svg>

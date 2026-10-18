@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none" id="hills-far" data-depth="0.50">
+  <defs>
+    <filter id="hills-grain" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" result="noise" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.15 0" />
+      <feComposite in2="SourceGraphic" in="gl" operator="in" />
+    </filter>
+  </defs>
+
+  <!-- Far Left Muted Ridge -->
+  <path d="M 0 880 C 140 850, 320 830, 480 845 C 560 852, 640 870, 720 880 L 720 1080 L 0 1080 Z" fill="#C5C2A5" opacity="0.65" />
+  
+  <!-- Mid-distant Sage Hills behind Chichen Itza and Machu Picchu -->
+  <path d="M 640 850 
+           C 750 800, 880 770, 990 790 
+           C 1070 805, 1150 830, 1260 810 
+           C 1340 795, 1420 820, 1500 850 
+           L 1500 1080 L 640 1080 Z" 
+        fill="#A9AB8C" opacity="0.85" />
+        
+  <!-- Soft Sand Accent Mound on Far Right -->
+  <path d="M 1380 840 C 1500 810, 1650 790, 1820 820 C 1870 828, 1900 835, 1920 840 L 1920 1080 L 1380 1080 Z" fill="#D3C3A5" opacity="0.75" />
+
+  <!-- Fine Risograph Contoured Hatch Lines on Distant Hills -->
+  <g stroke="#2B2118" stroke-width="1.2" stroke-linecap="round" opacity="0.22">
+    <!-- Left hill hatching -->
+    <line x1="180" y1="860" x2="160" y2="880" />
+    <line x1="220" y1="855" x2="200" y2="878" />
+    <line x1="260" y1="850" x2="240" y2="875" />
+    <line x1="300" y1="846" x2="280" y2="872" />
+    <line x1="340" y1="844" x2="320" y2="870" />
+    
+    <!-- Central hill contours -->
+    <line x1="720" y1="835" x2="700" y2="855" />
+    <line x1="760" y1="825" x2="740" y2="848" />
+    <line x1="800" y1="815" x2="780" y2="840" />
+    <line x1="840" y1="808" x2="820" y2="835" />
+    <line x1="880" y1="802" x2="860" y2="830" />
+    <line x1="920" y1="800" x2="900" y2="828" />
+    <line x1="960" y1="804" x2="940" y2="832" />
+  </g>
+</svg>

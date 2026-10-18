@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none" id="christ-redeemer" data-depth="0.85">
+  <defs>
+    <pattern id="robe-hatch" width="5" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(5)">
+      <line x1="0" y1="0" x2="0" y2="14" stroke="#2B2118" stroke-width="0.7" opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <g id="christ-redeemer-group">
+    <!-- Pedestal / Base Plinth on Corcovado Mountain Peak -->
+    <g id="pedestal">
+      <!-- Upper Pedestal -->
+      <polygon points="1696,782 1744,782 1748,855 1692,855" fill="#3D3125" stroke="#2B2118" stroke-width="1.8" />
+      <!-- Lower Base Steps -->
+      <polygon points="1686,855 1754,855 1758,880 1682,880" fill="#2B2118" stroke="#2B2118" stroke-width="1.8" />
+      <polygon points="1676,880 1764,880 1768,910 1672,910" fill="#1C140E" stroke="#2B2118" stroke-width="1.8" />
+      <!-- Vertical Fluting on Pedestal -->
+      <g stroke="#1C140E" stroke-width="1.4" opacity="0.8">
+        <line x1="1704" y1="785" x2="1702" y2="855" />
+        <line x1="1714" y1="785" x2="1714" y2="855" />
+        <line x1="1726" y1="785" x2="1726" y2="855" />
+        <line x1="1736" y1="785" x2="1738" y2="855" />
+      </g>
+      <!-- Highlight edge -->
+      <line x1="1696" y1="782" x2="1744" y2="782" stroke="#F3EBDB" stroke-width="2" opacity="0.6" />
+    </g>
+
+    <!-- Statue of Christ -->
+    <g id="statue-body">
+      <!-- Outstretched Horizontal Arms & Sleeves -->
+      <!-- Left Arm (Extending West) -->
+      <path d="M 1720 626 
+               L 1630 618 
+               C 1622 618, 1618 624, 1622 632 
+               L 1632 642 
+               L 1698 650 
+               L 1704 638 Z" 
+            fill="#F3EBDB" stroke="#2B2118" stroke-width="1.8" stroke-linejoin="round" />
+      
+      <!-- Right Arm (Extending East) -->
+      <path d="M 1720 626 
+               L 1810 618 
+               C 1818 618, 1822 624, 1818 632 
+               L 1808 642 
+               L 1742 650 
+               L 1736 638 Z" 
+            fill="#EFE8D6" stroke="#2B2118" stroke-width="1.8" stroke-linejoin="round" />
+
+      <!-- Head & Halo/Nape -->
+      <g id="statue-head">
+        <ellipse cx="1720" cy="600" rx="9" ry="11" fill="#FAF6EE" stroke="#2B2118" stroke-width="1.6" />
+        <!-- Hair / Beard contour -->
+        <path d="M 1712 596 C 1710 605, 1713 614, 1720 615 C 1727 614, 1730 605, 1728 596 Z" fill="#2B2118" opacity="0.35" />
+        <line x1="1720" y1="597" x2="1720" y2="606" stroke="#2B2118" stroke-width="1" />
+      </g>
+
+      <!-- Robe / Tunic Main Silhouette -->
+      <path d="M 1702 638 
+               L 1696 782 
+               L 1744 782 
+               L 1738 638 Z" 
+            fill="#F3EBDB" stroke="#2B2118" stroke-width="1.8" stroke-linejoin="round" />
+
+      <!-- Shaded Right Facet of Robe -->
+      <path d="M 1720 638 
+               L 1720 782 
+               L 1744 782 
+               L 1738 638 Z" 
+            fill="#E5DCB8" />
+
+      <!-- Robe Hatch Pattern Overlay -->
+      <path d="M 1702 638 L 1696 782 L 1744 782 L 1738 638 Z" fill="url(#robe-hatch)" />
+
+      <!-- Vertical Drapes and Fabric Folds Line-art -->
+      <g stroke="#2B2118" stroke-width="1.4" stroke-linecap="round">
+        <!-- Center Fold -->
+        <line x1="1720" y1="638" x2="1720" y2="782" stroke-width="1.8" />
+        <!-- Left Side Folds -->
+        <line x1="1708" y1="645" x2="1703" y2="782" />
+        <line x1="1714" y1="642" x2="1711" y2="782" />
+        <!-- Right Side Folds -->
+        <line x1="1726" y1="642" x2="1728" y2="782" />
+        <line x1="1732" y1="645" x2="1737" y2="782" />
+        <!-- Sleeve drape lines -->
+        <line x1="1645" y1="624" x2="1650" y2="643" stroke-width="1.2" />
+        <line x1="1665" y1="626" x2="1672" y2="646" stroke-width="1.2" />
+        <line x1="1685" y1="628" x2="1690" y2="648" stroke-width="1.2" />
+        <line x1="1795" y1="624" x2="1790" y2="643" stroke-width="1.2" />
+        <line x1="1775" y1="626" x2="1768" y2="646" stroke-width="1.2" />
+        <line x1="1755" y1="628" x2="1750" y2="648" stroke-width="1.2" />
+      </g>
+
+      <!-- Cream Highlights on Robe Shoulders and Outstretched Hands -->
+      <g stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" opacity="0.8">
+        <line x1="1632" y1="620" x2="1695" y2="628" />
+        <line x1="1745" y1="628" x2="1808" y2="620" />
+        <line x1="1710" y1="648" x2="1706" y2="740" />
+      </g>
+    </g>
+  </g>
+</svg>
