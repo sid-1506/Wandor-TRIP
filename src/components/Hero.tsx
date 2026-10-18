@@ -294,7 +294,7 @@ export default function Hero({ onPlanTripClick }: HeroProps) {
         {/* H1 Heading */}
         <h1
           ref={titleRef}
-          className="text-[44px] md:text-[5.2vw] lg:text-[76px] font-[500] tracking-[-0.045em] leading-[1.0] text-[var(--ink)] max-w-4xl mx-auto overflow-hidden"
+          className="text-[44px] md:text-[5.2vw] lg:text-[76px] font-[500] tracking-[-0.045em] leading-[1.15] pb-2 text-[var(--ink)] max-w-4xl mx-auto"
           style={{ willChange: "transform, opacity" }}
         >
           Where will you go next?
@@ -303,7 +303,7 @@ export default function Hero({ onPlanTripClick }: HeroProps) {
         {/* Subtitle (2 Lines) */}
         <p
           ref={subTextRef}
-          className="mt-5 md:mt-6 text-[15px] md:text-[16px] leading-[1.5] font-[400] text-[var(--muted)] max-w-xl mx-auto"
+          className="mt-4 md:mt-5 text-[15px] md:text-[16px] leading-[1.5] font-[400] text-[var(--muted)] max-w-xl mx-auto"
           style={{ willChange: "transform, opacity" }}
         >
           Tell our AI where you&apos;re going and what you love.
