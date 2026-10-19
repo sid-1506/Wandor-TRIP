@@ -1,6 +1,13 @@
 # Wandor — AI Travel Itinerary Planner ✈️🌍
 
-A pixel-faithful, award-level scroll-driven **Parallax Landing Page** for **Wandor**, an AI travel-itinerary planner. Built with Next.js 15 (App Router), TypeScript, Tailwind CSS, GSAP, Lenis, and Three.js (React Three Fiber / Drei).
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![Three.js](https://img.shields.io/badge/Three.js-r186-black?style=flat-square&logo=three.js)](https://threejs.org/)
+[![GSAP](https://img.shields.io/badge/GSAP-3-green?style=flat-square&logo=greensock)](https://greensock.com/)
+
+A pixel-faithful, award-level scroll-driven **Parallax Landing Page** for **Wandor**, an AI travel-itinerary planner. Built with Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4, GSAP, Lenis, and Three.js (React Three Fiber / Drei).
 
 ---
 
@@ -8,7 +15,7 @@ A pixel-faithful, award-level scroll-driven **Parallax Landing Page** for **Wand
 
 - **Pixel-Faithful Hero Replica**:
   - Recreated in earthy risograph gouache style with custom warm paper textures (`#FBF8F2` to `#F3EADB`).
-  - **14 Separate Hand-Authored Transparent SVG Layers** stacked at `viewBox="0 0 1920 1080"` with custom risograph hatching, displacement filters, and depth mappings:
+  - **14 Hand-Authored Transparent SVG Layers** stacked at `viewBox="0 0 1920 1080"` with custom risograph hatching, displacement filters, and depth mappings:
     - `sketch-cloud-left.svg` & `sketch-cloud-right.svg` (d: 0.30)
     - `hills-far.svg` (d: 0.50)
     - `mountain-machu-picchu.svg` (d: 0.60)
@@ -42,6 +49,37 @@ A pixel-faithful, award-level scroll-driven **Parallax Landing Page** for **Wand
 
 ---
 
+## 📂 Project Structure
+
+```text
+WANDOR/
+├── public/
+│   └── assets/
+│       └── svg/           # 40+ hand-authored risograph landmarks, scenic tiles & overlays
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx     # Root layout & font definitions (Inter Tight, Courier Prime)
+│   │   ├── page.tsx       # Landing page composing all parallax sections
+│   │   └── globals.css    # Tailwind v4 directives & color variables
+│   ├── components/
+│   │   ├── Hero.tsx       # Multi-depth parallax hero section
+│   │   ├── HeroLayers.tsx # 14 SVG illustration depth planes
+│   │   ├── PromptBox.tsx  # Interactive AI prompt input with typewriter effect
+│   │   ├── PaperPlane.tsx # 3D origami paper plane simulation (R3F)
+│   │   ├── ThreeBackground.tsx # GLSL custom paper texture & dust particle field
+│   │   ├── Navbar.tsx     # Floating dual-capsule responsive navigation
+│   │   ├── SmoothScroll.tsx # Lenis smooth scrolling orchestrator
+│   │   └── ...            # Feature rows, mockups, modals & footer
+│   └── lib/
+│       ├── gsap.ts        # GSAP & ScrollTrigger registration helper
+│       ├── scrollStore.ts # Lightweight reactive scroll & resize state store
+│       └── content.ts     # Content copy & copy tokens
+├── package.json
+└── README.md
+```
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Install Dependencies
@@ -66,11 +104,17 @@ npm run start
 
 ## 🛠 Tech Stack
 
-- **Framework**: Next.js 15 (App Router, Turbopack)
-- **Language**: TypeScript
+- **Framework**: Next.js 16 (App Router, Turbopack)
+- **Language**: TypeScript 5
 - **Styling**: Tailwind CSS v4 + Vanilla CSS Variables
-- **Animations**: GSAP 3 (ScrollTrigger, SplitText, QuickTo)
+- **Animations**: GSAP 3 (ScrollTrigger, QuickTo)
 - **Smooth Scroll**: Lenis
 - **3D Graphics**: Three.js, `@react-three/fiber`, `@react-three/drei`
 - **Icons**: Lucide React
 - **Typography**: Google Fonts (`Inter Tight`, `Courier Prime`, `Cutive Mono`)
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
