@@ -85,58 +85,69 @@ body {
   border-radius: 28px;
 }
 
-.glass-nav {
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  background-color: rgba(246, 241, 231, 0.82);
-  border-bottom: 1px solid rgba(43, 33, 24, 0.08);
+/* ========================================================
+   MINDLY-STYLE DOUBLE-LAYER NAVBAR (WANDOR EARTHY PALETTE)
+   ======================================================== */
+
+.navbar-ambient-glow {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(217, 168, 119, 0.55) 0%,
+    rgba(185, 100, 58, 0.35) 45%,
+    rgba(217, 168, 119, 0) 75%
+  );
+  filter: blur(24px);
+  pointer-events: none;
+  z-index: -1;
 }
 
-/* Nav underline-draw animation */
-.nav-link {
-  position: relative;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--ink);
-  transition: color 0.2s ease;
-}
-
-.nav-link::after {
+/* Paper Grain Texture for Inner Navbar Surface & Mobile Drawer */
+.navbar-inner-surface::before {
   content: "";
   position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 100%;
-  height: 1.5px;
-  background-color: var(--ink);
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0.30;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  z-index: 1;
 }
 
-.nav-link:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+.paper-menu-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.30;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  z-index: 1;
 }
 
-/* Pill buttons */
-.btn-pill-black {
+/* Pressed sliding pill behind active/hovered link */
+.nav-pressed-pill {
+  background-color: #F3EBDB;
+  box-shadow: 
+    inset 0 2px 4px rgba(43, 33, 24, 0.10),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.8),
+    0 1px 0 rgba(255, 255, 255, 0.8);
   border-radius: 9999px;
-  background-color: var(--btn);
-  color: #FFFFFF;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), background-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-.btn-pill-black:hover {
-  transform: translateY(-1.5px);
-  background-color: #222222;
-  box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.25);
+/* Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  .navbar-outer-shell,
+  .navbar-shell-body,
+  .navbar-ambient-glow,
+  .navbar-zone-logo,
+  .navbar-zone-center,
+  .navbar-zone-cta {
+    transform: none !important;
+    transition: none !important;
+  }
 }
 
 /* SVG rough edges filter utility */
