@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter_Tight, Courier_Prime, Cutive_Mono } from "next/font/google";
-import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 const interTight = Inter_Tight({
@@ -47,7 +46,6 @@ export default function RootLayout({
       className={`${interTight.variable} ${courierPrime.variable} ${cutiveMono.variable} antialiased`}
     >
       <body className="min-h-screen bg-[var(--paper)] text-[var(--ink)] font-sans selection:bg-[var(--terracotta)] selection:text-white">
-        <Navbar />
         {children}
       </body>
     </html>

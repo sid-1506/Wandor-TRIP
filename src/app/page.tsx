@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
+import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import FeatureRow from "@/components/FeatureRow";
@@ -31,21 +32,15 @@ export default function Home() {
     setModalOpen(true);
   };
 
-  React.useEffect(() => {
-    const handleOpen = (e: Event) => {
-      const customEvent = e as CustomEvent<{ prompt?: string }>;
-      handleOpenPlan(customEvent.detail?.prompt);
-    };
-    window.addEventListener("wandor:open-plan-trip", handleOpen);
-    return () => window.removeEventListener("wandor:open-plan-trip", handleOpen);
-  }, []);
-
   return (
     <SmoothScroll>
       {/* Three.js R3F Canvas Layer (Paper GLSL Shader + Pollen + 3D Paper Plane) */}
       <ThreeBackground />
 
       <main className="relative min-h-screen w-full flex flex-col bg-transparent overflow-x-hidden">
+        {/* Navigation Bar */}
+        <Navbar onPlanTripClick={() => handleOpenPlan()} />
+
         {/* 1. Hero Section (Pixel-faithful replica with 14 SVG Parallax Layers) */}
         <Hero onPlanTripClick={() => handleOpenPlan()} />
 

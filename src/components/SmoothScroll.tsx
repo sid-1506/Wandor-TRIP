@@ -3,7 +3,7 @@
 import React, { useEffect, useRef } from "react";
 import Lenis from "lenis";
 import { registerGSAP, gsap, ScrollTrigger } from "@/lib/gsap";
-import { updateScrollState, setLenisInstance } from "@/lib/scrollStore";
+import { updateScrollState } from "@/lib/scrollStore";
 
 interface SmoothScrollProps {
   children: React.ReactNode;
@@ -34,7 +34,6 @@ export default function SmoothScroll({ children }: SmoothScrollProps) {
       smoothWheel: true,
     });
     lenisRef.current = lenis;
-    setLenisInstance(lenis);
 
     // Connect Lenis to GSAP ScrollTrigger
     lenis.on("scroll", (e) => {
@@ -42,8 +41,6 @@ export default function SmoothScroll({ children }: SmoothScrollProps) {
       updateScrollState({
         progress: e.progress ?? 0,
         velocity: e.velocity ?? 0,
-        scrollY: e.scroll ?? 0,
-        direction: e.direction ?? 0,
       });
     });
 
@@ -57,7 +54,6 @@ export default function SmoothScroll({ children }: SmoothScrollProps) {
 
     return () => {
       gsap.ticker.remove(tickerCallback);
-      setLenisInstance(null);
       lenis.destroy();
       lenisRef.current = null;
     };
